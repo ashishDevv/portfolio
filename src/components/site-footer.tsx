@@ -13,11 +13,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/alkushx"
+            href="https://x.com/its_aashish_dev"
             target="_blank"
             rel="noopener"
           >
-            alkush
+            Aashish Kumar
           </a>
           . The source code is available on{" "}
           <a

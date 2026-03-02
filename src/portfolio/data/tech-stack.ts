@@ -56,9 +56,9 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Containerization"],
   },
   {
-    key: "kubernetes",
-    title: "Kubernetes",
-    href: "https://kubernetes.io/",
+    key: "nextjs",
+    title: "Next.js",
+    href: "https://nextjs.org/",
     categories: ["Containerization"],
   },
   {

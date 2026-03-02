@@ -38,14 +38,14 @@ export const USER = {
   ],
 
   about: `
-- **Full Stack Developer** specializing in **Go**, **Next.js**, **TypeScript**, and **microservices architecture**.
-- Experienced in building **high-performance, scalable systems** with message queues (RabbitMQ), vector databases, and cloud infrastructure (AWS).
-- Skilled in **LangChain**, **RAG pipelines**, and AI-powered applications with real-time capabilities.
-- Creator of [Carter](https://github.com/Alkush-Pipania/Carter): A microservices platform with Go backend, RabbitMQ async processing, and Pinecone Vector DB — powering **100+ active users** with sub-100ms API latency.
-- Built [UserAccess](https://useraccess.live): A WCAG-compliant accessibility widget hosted on AWS S3/CloudFront with global low-latency delivery.
-- Developed [Cluely](https://github.com/Alkush-Pipania/JarwizAI): A RAG-powered conversational AI platform with real-time streaming and hybrid search.
-- Crafted [Depo](https://github.com/Alkush-Pipania/Depo): A legal-tech platform using **LangGraph AI agents** for deposition question generation with live audio diarization.
-- Pursuing **B.Tech in Computer Science** at Dr. A.P.J. Abdul Kalam Technical University.
+- Backend-focused engineer specializing in **Golang**, **Node.js** and **Distributed systems**, building production-grade services designed for scalability, reliability, and fault tolerance from the ground up.
+- Designed high-throughput systems processing **30K+ daily jobs** and **10K+ events/min**, implementing transactional outbox, visibility timeouts, DLQs, bounded retries, and idempotent workflows to guarantee reliability under failure.
+- Strong hands-on experience with **Concurrency in Go** — worker pools, goroutines, channels, mutex, semaphores, backpressure handling, and graceful shutdown using contexts.
+- Strong believer in designing for failure first — **crash resilience**, **zero job loss guarantees**, **at-least-once delivery semantics**, and **database-safe concurrency patterns**.
+- Cloud & DevOps aware engineer with practical experience in **Docker**, **Kubernetes**, **AWS**, and **CI/CD pipelines**, focusing on reproducible builds, automated testing, and production-ready deployments.
+- Currently advancing my expertise in **Observability Engineering**, **Testing**, **Benchmarking**, and **Profiling**, ensuring systems are not just functional but measurable, optimized, and performance-conscious.
+- Built [Monit](https://github.com/ashishDevv/Monit) — a distributed uptime monitoring system can handle **1M+ monitors**.
+- Built [Outflow](https://github.com/ashishDevv/Outflow) — a crash-resilient transactional outbox processor handling **10K+ events/min**.
 `,
   avatar: "https://stealth.blr1.cdn.digitaloceanspaces.com/ashish.png",
   ogImage: "/Images/my.png",

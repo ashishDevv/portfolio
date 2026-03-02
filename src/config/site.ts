@@ -16,19 +16,19 @@ export const META_THEME_COLORS = {
 
 export const MAIN_NAV: NavItem[] = [
     {
-        title: "home",
+        title: "Home",
         href: "/",
     },
     {
-        title: "projects",
+        title: "Projects",
         href: "/projects",
     },
     {
-        title: "contact",
+        title: "Contact",
         href: "/contact",
     },
 ];
 
 export const GITHUB_USERNAME = "ashishDevv";
-export const SOURCE_CODE_GITHUB_REPO = "Alkush-Pipania/alkush-portfolio-template";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/Alkush-Pipania/alkush-portfolio-template";
+export const SOURCE_CODE_GITHUB_REPO = "portfolio-repo";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/ashishDevv";

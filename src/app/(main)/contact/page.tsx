@@ -259,7 +259,7 @@ export default function ContactPage() {
             Email Me
           </a>
           <a
-            href="https://www.linkedin.com/in/alkushpipania/"
+            href="https://linkedin.com/in/kumar-ashu/"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center gap-2 rounded-lg border border-edge px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
@@ -270,7 +270,7 @@ export default function ContactPage() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/Alkush-Pipania"
+            href="https://github.com/ashishDevv"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center gap-2 rounded-lg border border-edge px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
