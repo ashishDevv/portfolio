@@ -6,7 +6,6 @@ import { MAIN_NAV } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { SiteHeaderMark } from "./site-header-mark";
 import { SiteHeaderWrapper } from "./site-header-wrapper";
-import { ThemeToggle } from "./theme-toggle";
 
 const MobileNav = dynamic(() =>
   import("@/components/mobile-nav").then((mod) => mod.MobileNav)
@@ -17,7 +16,7 @@ export function SiteHeader() {
     <SiteHeaderWrapper
       className={cn(
         "sticky top-0 z-50 max-w-screen overflow-x-hidden bg-background px-2 pt-2",
-        "data-[affix=true]:shadow-[0_0_16px_0_black]/8 dark:data-[affix=true]:shadow-[0_0_16px_0_black]",
+        "data-[affix=true]:shadow-[0_0_16px_0_black]/8",
         "not-dark:data-[affix=true]:**:data-header-container:after:bg-border",
         "transition-shadow duration-300"
       )}
@@ -39,7 +38,6 @@ export function SiteHeader() {
         <DesktopNav items={MAIN_NAV} />
 
         <div className="flex items-center">
-          <ThemeToggle />
           <MobileNav className="sm:hidden" items={MAIN_NAV} />
         </div>
       </div>

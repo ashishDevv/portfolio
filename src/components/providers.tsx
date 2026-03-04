@@ -10,11 +10,11 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <JotaiProvider>
       <ThemeProvider
-        enableSystem
         disableTransitionOnChange
         enableColorScheme
         storageKey="theme"
-        defaultTheme="system"
+        defaultTheme="light"
+        forcedTheme="light"
         attribute="class"
       >
         <AppProgressProvider
@@ -26,7 +26,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
           {children}
         </AppProgressProvider>
 
-        <Toaster position="top-center" />       
+        <Toaster position="top-center" />
       </ThemeProvider>
     </JotaiProvider>
   );
